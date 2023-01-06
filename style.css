@@ -26,7 +26,7 @@
    margin-bottom: 30px;
     
 }
-.btn-primary{
+.btn-1{
     margin-top: 30px;
     color: #005FAC;
     font-weight: 600;
@@ -91,8 +91,98 @@
 }
 /* my plan styles start */
 .my-plan{
-    margin-top: 100px;
+    margin: 100px 0px;
+   
+}
+.my-plan-title{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    margin: 50px 0px;
 }
 .my-plan-content{
     display: flex;
+    justify-content: space-around;
+    padding: 0px 180px;
+  
+}
+.plan-div{
+    text-align: center;
+    
+}
+.my-plan-img{
+    margin-bottom: 20px;
+}
+.my-plan-h{
+    margin-bottom: 10px;
+}
+.my-plan-p{
+    color: #737272;
+    text-align: center;
+}
+
+/* footer style start */
+.btn-2{
+    color: #FFFFFF;
+    /* margin-top: 30px; */
+    font-weight: 600;
+    border: 0;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 5px;
+    background:  #005FAC;
+}
+.footer{
+    display: flex;
+    margin-top: 100px;
+    background-color: black;
+    color: #FFFFFF;
+} 
+.footer-content{
+    padding: 130px 885px 130px 230px;
+    /* padding-left: 230px;
+    padding-right: 885px;
+    padding-bottom: 130px; */
+}
+
+.footer-img{
+    display: flex;
+    
+}
+.footer-h{
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.footer-p{
+    margin-bottom: 24px;
+}
+.footer-p2{
+    margin-bottom: 16px;
+}
+.footer-p3{
+    margin-bottom: 32px;
+}
+.div{
+    margin-left: 15px;
+}
+.footer-sub{
+    padding-top: 130px;
+    padding-right: 230px;
+    padding-bottom: 243px;
+}
+.footer-sub-h{
+    margin-bottom: 20px;
+}
+.footer-sub-email{
+    color: #FFFFFF;
+    margin-bottom: 15px; 
+    width: 220px;
+    height: 40px;
+    background-color: #151414;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+
 }
