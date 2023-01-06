@@ -146,10 +146,18 @@
 
 }
 .mindset{
-    padding-top: 10%;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2280.96px;
+    padding-top: 8%;
     padding-left: 5%;
 }
-
+.mindset-h{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
 
 /* footer style start */
 
