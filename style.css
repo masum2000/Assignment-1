@@ -124,7 +124,35 @@
     text-align: center;
 }
 
+
+/* positive mindset section start here */
+.positive-mindset{
+
+    /* background-image: url('/images/watch.png'),linear-gradient(to right, #6DB3F2, #6DB3F2);
+    background-repeat: no-repeat;
+    
+    height: 300px;
+    color: #FFFFFF; */
+    background-image:
+    linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 95, 172, 0)),
+    url('images/watch.png');
+    height: 400px;
+    background-size: cover;
+    color: white;
+    width: 70%;
+    margin-left:15%;
+    border-radius: 8px;
+   
+
+}
+.mindset{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
 /* footer style start */
+
 .btn-2{
     color: #FFFFFF;
     /* margin-top: 30px; */
