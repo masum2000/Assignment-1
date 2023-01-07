@@ -127,12 +127,6 @@
 
 /* positive mindset section start here */
 .positive-mindset{
-
-    /* background-image: url('/images/watch.png'),linear-gradient(to right, #6DB3F2, #6DB3F2);
-    background-repeat: no-repeat;
-    
-    height: 300px;
-    color: #FFFFFF; */
     background-image:
     linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 95, 172, 0)),
     url('images/watch.png');
@@ -159,11 +153,75 @@
     line-height: 47px;
 }
 
+/* Extra Section start here */
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+.form{
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+   width: 70%;
+   margin: 0 auto;
+   gap: 30px;
+  background-color: #87cefa;
+  align-items: center;
+  
+  
+}
+
+
+.form-name{
+    height: 50px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.form-email{
+    height: 50px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin-left: 20px;
+}
+.form-text{
+    height: 100px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin-left: 20px;
+}
+.btn-3{
+    color: #FFFFFF;
+    font-weight: 600;
+    border: 0;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 5px;
+    background:  #005FAC;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+  
+}
+
 /* footer style start */
 
 .btn-2{
     color: #FFFFFF;
-    /* margin-top: 30px; */
     font-weight: 600;
     border: 0;
     padding: 10px 20px;
@@ -179,9 +237,6 @@
 } 
 .footer-content{
     padding: 130px 885px 130px 230px;
-    /* padding-left: 230px;
-    padding-right: 885px;
-    padding-bottom: 130px; */
 }
 
 .footer-img{
@@ -220,5 +275,7 @@
     background-color: #151414;
     border: 1px solid whitesmoke;
     border-radius: 5px;
+    padding-left: 10px;
 
 }
+
