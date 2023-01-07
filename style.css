@@ -79,14 +79,14 @@
 .first-section-p1{
     margin-bottom: 16px;
 }
-.tick{
+.right-sign{
     font-family: wingdings;
-     font-size: 110%;
+     font-size: 15px;
      color: rgb(17, 240, 17);
      margin-right: 5px;
     
 }
-.first-section-tick p{
+.first-section-right-sign p{
     margin-bottom: 20px;
 }
 /* my plan styles start */
@@ -163,14 +163,15 @@
     margin-top: 130px;
 }
 .form{
-   text-align: center;
-   display:flex;
-   flex-direction: column;
-   width: 70%;
-   margin: 0 auto;
-   gap: 30px;
-  background-color: #87cefa;
-  align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    gap: 30px;
+    background-color: #87cefa;
+    align-items: center;
+    border-radius: 10px;
   
   
 }
@@ -273,7 +274,7 @@
     width: 220px;
     height: 40px;
     background-color: #151414;
-    border: 1px solid whitesmoke;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
     padding-left: 10px;
 
